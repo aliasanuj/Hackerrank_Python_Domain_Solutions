@@ -14,5 +14,5 @@ for i in range(n):
     s, p = map(int,input().split())
     if s in shoe_size:
         sell = sell + p
-        shoe_size.remove(s)
+        shoe_size.remove(s) # why we have use this ?
 print(sell)
